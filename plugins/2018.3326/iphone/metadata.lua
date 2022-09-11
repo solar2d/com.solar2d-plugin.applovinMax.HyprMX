@@ -3,8 +3,8 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = {  },
-		frameworks = { "AppLovinMediationHyprMXAdapter", "HyprMX" },
+		staticLibs = {"HyprMXAdapter"},
+		frameworks = { "HyprMX" },
 		frameworksOptional = {},
 	},
 }
