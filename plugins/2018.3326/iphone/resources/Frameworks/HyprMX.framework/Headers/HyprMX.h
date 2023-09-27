@@ -10,8 +10,13 @@ FOUNDATION_EXPORT double HyprMXVersionNumber;
 FOUNDATION_EXPORT const unsigned char HyprMXVersionString[];
 
 #import <HyprMX/HyprMXPlacement.h>
-#import <HyprMX/HyprMXBannerView.h>
 #import <Foundation/Foundation.h>
+
+extern CGSize const kHyprMXAdSizeShort;
+extern CGSize const kHyprMXAdSizeBanner;
+extern CGSize const kHyprMXAdSizeMediumRectangle;
+extern CGSize const kHyprMXAdSizeLeaderBoard;
+extern CGSize const kHyprMXAdSizeSkyScraper;
 
 @protocol HyprMXInitializationDelegate
 @optional
@@ -24,6 +29,11 @@ FOUNDATION_EXPORT const unsigned char HyprMXVersionString[];
  * The initialization has failed
  */
 - (void)initializationFailed;
+@end
+
+@protocol HyprMXAudioChangeDelegate
+- (void)adAudioWillStart;
+- (void)adAudioDidEnd;
 @end
 
 @class HyprMXPlacement;
@@ -55,6 +65,8 @@ extern NSString * _Nonnull const HyprMXMediationProviderIronSource;
 extern NSString * _Nonnull const HyprMXMediationProviderMopub;
 extern NSString * _Nonnull const HyprMXMediationProviderUnity;
 
+@property (nullable, class, nonatomic) NSObject<HyprMXAudioChangeDelegate>* audioChangeDelegate;
+
 /**
  * Initializes the SDK.
  *
@@ -79,6 +91,20 @@ extern NSString * _Nonnull const HyprMXMediationProviderUnity;
                       consentStatus:(HyprConsentStatus)consentStatus
              initializationDelegate:(nullable id<HyprMXInitializationDelegate>)initializationDelegate;
 
+/**
+ * Initializes the SDK with params for GDPR and Age Restricted User compliance.
+ *
+ * @param distributorId The application identifier.
+ * @param userId Unique ID to identify the user
+ * @param consentStatus for GDPR compliance
+ * @param isAgeRestrictedUser Indicates if the user should be handled as Age Restricted.
+ * @param initializationDelegate The initialization listener the SDK should callback to
+ */
++ (void)initializeWithDistributorId:(nonnull NSString *)distributorId
+                             userId:(nonnull NSString *)userId
+                      consentStatus:(HyprConsentStatus)consentStatus
+                  ageRestrictedUser:(BOOL)isAgeRestrictedUser
+             initializationDelegate:(nullable id<HyprMXInitializationDelegate>)initializationDelegate;
 /**
  * Gets the placement object associated with the placement ID
  *
