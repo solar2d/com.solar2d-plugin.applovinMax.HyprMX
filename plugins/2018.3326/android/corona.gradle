@@ -4,5 +4,5 @@ repositories {
 }
 
 dependencies {
-    implementation("com.applovin.mediation:hyprmx-adapter:6.2.0.2")
+    implementation("com.applovin.mediation:hyprmx-adapter:6.2.3.0")
 }
