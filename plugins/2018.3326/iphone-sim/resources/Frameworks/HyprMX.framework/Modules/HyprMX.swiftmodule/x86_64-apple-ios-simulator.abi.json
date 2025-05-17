@@ -179,6 +179,23 @@
       },
       {
         "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3770,6 +3787,13 @@
       },
       {
         "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
         "name": "HyprMX_Private",
         "printedName": "HyprMX_Private",
         "declKind": "Import",
@@ -4559,6 +4583,13 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/NativeInterface\/FullScreenNativeProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 15,
+      "value": "\"HyprMX.WeakNativeProxy\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/VisibilityEvent.swift",
       "kind": "StringLiteral",
       "offset": 591,
@@ -5184,28 +5215,35 @@
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/SDKParameters.swift",
       "kind": "StringLiteral",
-      "offset": 460,
-      "length": 7,
-      "value": "\"6.4.0\""
+      "offset": 301,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/SDKParameters.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 345,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/SDKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
       "length": 6,
       "value": "\"Info\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/SDKParameters.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 661,
       "length": 7,
       "value": "\"plist\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/SDKParameters.swift",
       "kind": "StringLiteral",
-      "offset": 1022,
+      "offset": 1005,
       "length": 16,
       "value": "\"HyprMXHostName\""
     },
@@ -5639,14 +5677,14 @@
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/PresentationAdapter\/PresentationAdapterDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 3605,
+      "offset": 3597,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/PresentationAdapter\/PresentationAdapterDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 3727,
+      "offset": 3719,
       "length": 5,
       "value": "false"
     },
@@ -6024,182 +6062,182 @@
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10145,
+      "offset": 10146,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 10581,
+      "offset": 10582,
       "length": 135,
       "value": "\"showAdFromViewController: presenting from viewController: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 10715,
+      "offset": 10716,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 10765,
+      "offset": 10766,
       "length": 226,
       "value": "\"showAdFromViewController: found top viewController of: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 10863,
+      "offset": 10864,
       "length": 1,
       "value": "\",\nbut will present from provided viewController: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 10987,
+      "offset": 10988,
       "length": 8703,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 11104,
+      "offset": 11105,
       "length": 121,
       "value": "\"showAd: Presenting from top viewController: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 11224,
+      "offset": 11225,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "FloatLiteral",
-      "offset": 12286,
+      "offset": 12287,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 12454,
+      "offset": 12455,
       "length": 79,
       "value": "\"showAd: Initialized new Top viewController: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 12532,
+      "offset": 12533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 12708,
+      "offset": 12709,
       "length": 32,
       "value": "\"PresentationController started\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 12997,
+      "offset": 12998,
       "length": 36,
       "value": "\"Clearing generated view controller\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "FloatLiteral",
-      "offset": 13096,
+      "offset": 13097,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 13217,
+      "offset": 13218,
       "length": 35,
       "value": "\"PreesentationController completed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 13420,
+      "offset": 13421,
       "length": 19,
       "value": "\"unknown placement\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13482,
+      "offset": 13483,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "Dictionary",
-      "offset": 13984,
+      "offset": 13985,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 14600,
+      "offset": 14601,
       "length": 49,
       "value": "\"UIViewController dealloced during presentation.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 14838,
+      "offset": 14839,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15053,
+      "offset": 15054,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15276,
+      "offset": 15277,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 15382,
+      "offset": 15383,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 15391,
+      "offset": 15392,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 17993,
+      "offset": 17994,
       "length": 38,
       "value": "\"Scene showing an ad has disconnected\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/PresentationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19253,
+      "offset": 19254,
       "length": 5,
       "value": "false"
     },
@@ -6276,98 +6314,98 @@
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1797,
       "length": 30,
       "value": "\"Banner presenter initialized\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2031,
+      "offset": 2026,
       "length": 81,
       "value": "\"dealloc of Banner Presenter with ID: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2111,
+      "offset": 2106,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2182,
+      "offset": 2177,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2561,
+      "offset": 2556,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2600,
+      "offset": 2595,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2812,
+      "offset": 2807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "FloatLiteral",
-      "offset": 2845,
+      "offset": 2840,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "FloatLiteral",
-      "offset": 2867,
+      "offset": 2862,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3383,
+      "offset": 3378,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "Dictionary",
-      "offset": 3481,
+      "offset": 3476,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 3744,
+      "offset": 3739,
       "length": 13,
       "value": "\"bidResponse\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5718,
+      "offset": 5713,
       "length": 9,
       "value": "\"isModal\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5729,
+      "offset": 5724,
       "length": 4,
       "value": "true"
     },
@@ -6381,210 +6419,210 @@
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 6659,
+      "offset": 6654,
       "length": 26,
       "value": "\"PLACEMENT_DOES_NOT_EXIST\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6925,
+      "offset": 6920,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7025,
+      "offset": 7020,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 8257,
+      "offset": 8252,
       "length": 53,
       "value": "\"createCalendarEvent not supported by native iOS SDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "FloatLiteral",
-      "offset": 8958,
+      "offset": 8953,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "FloatLiteral",
-      "offset": 9040,
+      "offset": 9035,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 9439,
+      "offset": 9434,
       "length": 14,
       "value": "\"storePicture\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 9797,
+      "offset": 9792,
       "length": 18,
       "value": "\"ready(toPresent)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9959,
+      "offset": 9954,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9965,
+      "offset": 9960,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9975,
+      "offset": 9970,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9987,
+      "offset": 9982,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 10441,
+      "offset": 10436,
       "length": 30,
       "value": "\"hyprPhotoDownloadSucceeded()\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 10565,
+      "offset": 10560,
       "length": 50,
       "value": "\"hyprPhotoDownloadFailedWithError(_ error: Error)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 10729,
+      "offset": 10724,
       "length": 39,
       "value": "\"imageStorageFailedWithError: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 10767,
+      "offset": 10762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 10862,
+      "offset": 10857,
       "length": 25,
       "value": "\"imageStorageSucceeded()\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 10956,
+      "offset": 10951,
       "length": 25,
       "value": "\"imageStorageCancelled()\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 11034,
+      "offset": 11029,
       "length": 25,
       "value": "\"Error downloading photo\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 11115,
+      "offset": 11110,
       "length": 23,
       "value": "\"Could not store Image\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 11324,
+      "offset": 11319,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 11826,
+      "offset": 11821,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Data\/JavaScriptBundle.swift",
       "kind": "StringLiteral",
-      "offset": 820,
+      "offset": 802,
       "length": 80,
       "value": "\"Failed to move SDK from: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Data\/JavaScriptBundle.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 839,
       "length": 4,
       "value": "\" with Error: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Data\/JavaScriptBundle.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 881,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Data\/JavaScriptBundle.swift",
       "kind": "StringLiteral",
-      "offset": 1254,
+      "offset": 1236,
       "length": 19,
       "value": "\"com.hyprmx.HyprMX\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Data\/JavaScriptBundle.swift",
       "kind": "StringLiteral",
-      "offset": 1399,
+      "offset": 1381,
       "length": 17,
       "value": "\"sdk_core.min.js\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Data\/JavaScriptBundle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1652,
+      "offset": 1634,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Data\/JavaScriptBundle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1693,
+      "offset": 1675,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Data\/JavaScriptBundle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1837,
+      "offset": 1819,
       "length": 4,
       "value": "true"
     },
@@ -7256,77 +7294,77 @@
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "StringLiteral",
-      "offset": 12416,
+      "offset": 12408,
       "length": 47,
       "value": "\"HYPRController already performing an upgrade.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "StringLiteral",
-      "offset": 12506,
+      "offset": 12498,
       "length": 23,
       "value": "\"Beginning SDK Upgrade\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "StringLiteral",
-      "offset": 12836,
+      "offset": 12828,
       "length": 26,
       "value": "\"The upgrade URL is empty\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "StringLiteral",
-      "offset": 13084,
+      "offset": 13076,
       "length": 11,
       "value": "\"version()\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "StringLiteral",
-      "offset": 13795,
+      "offset": 13787,
       "length": 36,
       "value": "\"Upgrade requested to same version.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "StringLiteral",
-      "offset": 13952,
+      "offset": 13944,
       "length": 31,
       "value": "\"Received SDK Rollback Message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "BooleanLiteral",
-      "offset": 14039,
+      "offset": 14031,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "StringLiteral",
-      "offset": 14189,
+      "offset": 14181,
       "length": 37,
       "value": "\"Rollback requested against base SDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "StringLiteral",
-      "offset": 14514,
+      "offset": 14506,
       "length": 38,
       "value": "\"Rollback requested during an upgrade\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 15055,
+      "offset": 15047,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/Controller.swift",
       "kind": "StringLiteral",
-      "offset": 15753,
+      "offset": 15745,
       "length": 15,
       "value": "\"no ad to show\""
     },
@@ -9839,126 +9877,126 @@
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 233,
+      "offset": 253,
       "length": 11,
       "value": "\"banner_ad\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 292,
+      "offset": 312,
       "length": 9,
       "value": "\"base_ad\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 350,
+      "offset": 370,
       "length": 9,
       "value": "\"sharing\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 415,
+      "offset": 435,
       "length": 17,
       "value": "\"webtraffic_page\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 507,
       "length": 11,
       "value": "\"banner_ad\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 536,
       "length": 9,
       "value": "\"base_ad\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 564,
       "length": 9,
       "value": "\"sharing\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 579,
+      "offset": 599,
       "length": 17,
       "value": "\"webtraffic_page\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 662,
+      "offset": 682,
       "length": 5,
       "value": "160.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 677,
+      "offset": 697,
       "length": 5,
       "value": "600.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 727,
+      "offset": 747,
       "length": 5,
       "value": "728.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 742,
+      "offset": 762,
       "length": 4,
       "value": "90.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 795,
+      "offset": 815,
       "length": 5,
       "value": "300.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 810,
+      "offset": 830,
       "length": 5,
       "value": "250.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 855,
+      "offset": 875,
       "length": 5,
       "value": "320.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 870,
+      "offset": 890,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 913,
+      "offset": 933,
       "length": 5,
       "value": "300.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 928,
+      "offset": 948,
       "length": 4,
       "value": "50.0"
     },
